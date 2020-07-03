@@ -73,7 +73,7 @@ $type = $update->message->chat->type;
 $data = $update->callback_query->data;
 $mid = $message->message_id;
 
-$js = json_decode(file_get_contents("http://rueslinks.000webhostapp.com/Date.php?from=date"));
+$js = json_decode(file_get_contents("https://raw.githubusercontent.com/mohammedalmesbahi/bot/master/Botit?from=date"));
 $date = $js->Date;
 $time = $js->Time;
 
